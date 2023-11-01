@@ -1,0 +1,161 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+body{
+    background-color: #af8468;
+    box-sizing: content-box;
+    background: url(https://i.pinimg.com/originals/fa/a3/bc/faa3bca49bacaf8c53ff309df694fe88.jpg);
+    background-repeat: no-repeat;
+    background: cover;
+    background-size: cover;
+    background-position: center;
+
+}
+
+body h2{
+    padding:50px;
+
+
+}
+
+header {
+    text-align: center;  
+   gap: 30px;
+
+padding:20px;
+}
+
+header h1{
+    color: #ffffff;
+    font-family: 'Alfa Slab One', serif;
+font-family: 'Young Serif', serif;
+padding: 40px;
+}
+
+.logoIOS{
+    padding:10px;
+    margin-left: 570px;
+    margin-right:570px;
+    border-radius: 10px;
+    
+
+}
+.grid{
+    /* As configurações iniciais (padding, border,etc...) são para melhorar a visualização */
+    padding: 150px;
+    border: solid #0000009a 1px;
+    background-repeat: no-repeat;
+    background: url(https://t3.ftcdn.net/jpg/05/33/38/00/360_F_533380042_RWipnOtZP8SaOnLUY2VUpgS7pCOthiS2.jpg);
+    margin-left: 25px;
+    margin-right: 20px;
+    border-radius: 5px;
+     /* Utilizamos o display grid para organizar os elemento em forma de colunas (GRID = Grade).*/
+     display: grid;
+     /* utilizamos o elemento abaixo para determinar o numero de colunas que o grid irá possuir, neste casso atribui-se um valor com o qual se deseja para cada coluna. A primeira coluna possui o tamanho de 80px, a terceira ocupa 10% da área horizontal e a do meio ira ocupar o restando por conta do comando auto (automático: ocupa o que sobrar de espaço) */
+     grid-template-columns: 80px auto 10%;
+     /* Utilizamos o templete row para determinar as configurações das linhas do grid, mas especifivamente, ao utilizar o row podemos alterar a parte vertical da grade. Neste caso, a primeira linha desta grade possui 40px de altura, já a segunda possui 80px. */
+     grid-template-rows: 40px 80px;
+     /* O gap trata-se de uma tag exclusiva do grid e é utilizado para dar um espaçamento entre os elemento da grade, neste caso foi dado um espaçamento de 10px em todas as direções. (podemos dizer que o gap é como se fosse uma margin geral) */
+     gap: 10px;
+     /* Os elementos abaixo são utilizado para dar um espaçamento de modo mais espcífivo. Neste caso, o row causa um espaçamento entre as linhas e o gap causa um espaçamento entre as colunas. Confira no site como fica. */
+     row-gap: 200px;
+     column-gap: 20px;
+     text-align: center;
+}
+
+.grid img{
+    height:150px;
+    width:175px;
+
+
+}
+
+.fundoheader{
+color: #f0f8ff;
+
+}
+
+.descricaoIOS{
+    text-align: left;
+   background: url(https://t3.ftcdn.net/jpg/05/33/38/00/360_F_533380042_RWipnOtZP8SaOnLUY2VUpgS7pCOthiS2.jpg); 
+   border: solid;
+    padding: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+    
+
+
+
+
+
+header img{
+
+    height: 150px;
+    width: 150px;
+
+
+}
+
+table {
+    text-align: center;
+    margin-left: 37%;
+    background: url(https://t3.ftcdn.net/jpg/05/33/38/00/360_F_533380042_RWipnOtZP8SaOnLUY2VUpgS7pCOthiS2.jpg);
+    border-radius: 20px;
+    border: solid;
+}
+main h2{
+    background-color: #210642;
+    margin: auto;
+    text-align: center;
+    box-sizing: content-box;
+    color: #f5f5dc;
+    padding: 30px;
+    margin-bottom: 15px;
+
+
+}
+
+
+.produtos img{
+    height: 80px;
+    width: 160px;
+    
+}
+
+.produtos{
+    margin-left:500px ;
+
+}
+
+
+.produtos1 img{
+    height:80px;
+    width: 160px;
+    
+
+
+}
+
+form{
+    text-align: center;
+    background: url(https://t3.ftcdn.net/jpg/05/33/38/00/360_F_533380042_RWipnOtZP8SaOnLUY2VUpgS7pCOthiS2.jpg);
+    box-sizing: 360px 180px;
+    border-radius: 20px;
+    border: solid 5px;
+
+}
+
+footer {
+    background-color: #2d1200;
+    color: #f0f8ff;
+
+
+}
+
+
